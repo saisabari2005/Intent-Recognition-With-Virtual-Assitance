@@ -23,3 +23,33 @@ A **voice-enabled virtual assistant** that can recognize user intents and perfor
    ```bash
    git clone https://github.com/yourusername/Intent-Recognition-With-Virtual-Assistance.git
    cd Intent-Recognition-With-Virtual-Assistance
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Required libraries:
+
+pyttsx3
+
+speech_recognition
+
+tensorflow
+
+numpy
+
+pyautogui
+
+psutil
+
+Ensure you have the model and required files:
+
+chat_model.h5 – trained intent recognition model
+
+tokenizer.pkl – tokenizer for text preprocessing
+
+label_encoder.pkl – label encoder for intent labels
+
+intends.json – JSON file containing intents and responses
