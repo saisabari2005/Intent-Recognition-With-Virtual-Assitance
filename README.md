@@ -43,6 +43,7 @@ A **voice-enabled virtual assistant** that can recognize user intents and perfor
 ### Run the assistant:
 ```bash
 python main.py
+---
 - The assistant will greet you based on the time of day.
 - Speak your commands clearly. Examples:
 - "Open calculator"
