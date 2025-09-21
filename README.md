@@ -68,8 +68,8 @@ python main.py
 ## Project Structure 📂
 
 ```
-├── ai-virtual-assistance/
-│   ├── intends.json        # Intent-response mappings
+├── Intent-Recognition-With-Virtual-Assitance/
+├── intends.json        # Intent-response mappings
 ├── chat_model.h5           # Trained Keras model
 ├── tokenizer.pkl           # Tokenizer for text preprocessing
 ├── label_encoder.pkl       # Label encoder for intents
