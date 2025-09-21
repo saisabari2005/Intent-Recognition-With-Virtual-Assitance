@@ -41,32 +41,32 @@ A **voice-enabled virtual assistant** that can recognize user intents and perfor
 
 ## Usage ▶️
 ### Run the assistant:
-bash
-python main.py
-The assistant will greet you based on the time of day.
-Speak your commands clearly. Examples:
-"Open calculator"
-"What is the CPU usage?"
-"Open Facebook"
-"University timetable"
-"Mute the sound"
-To exit, say: "exit"
+- bash
+- python main.py
+- The assistant will greet you based on the time of day.
+- Speak your commands clearly. Examples:
+- "Open calculator"
+- "What is the CPU usage?"
+- "Open Facebook"
+- "University timetable"
+- "Mute the sound"
+- To exit, say: "exit"
 
 ---
 
 ## How It Works ⚙️
-Speech Recognition: Converts your voice to text using speech_recognition
-Intent Classification: Uses the trained model to classify user intent
-Response Generation: Chooses a response from intents.json or performs system/web actions
-Text-to-Speech: Speaks the response using pyttsx3
+- Speech Recognition: Converts your voice to text using speech_recognition
+- Intent Classification: Uses the trained model to classify user intent
+- Response Generation: Chooses a response from intents.json or performs system/web actions
+- Text-to-Speech: Speaks the response using pyttsx3
 
 ---
 
 ## Future Improvements 🚀
-Add more intents for advanced tasks
-Integrate with calendar APIs for dynamic schedule management
-Add a GUI interface for easier interaction
-Include context-aware conversations for better understanding
+- Add more intents for advanced tasks
+- Integrate with calendar APIs for dynamic schedule management
+- Add a GUI interface for easier interaction
+- Include context-aware conversations for better understanding
 
 ---
 
