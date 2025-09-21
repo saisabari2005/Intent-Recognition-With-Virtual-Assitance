@@ -26,17 +26,16 @@ A **voice-enabled virtual assistant** that can recognize user intents and perfor
    
 ---
 
-## Installation
 ### Install dependencies:
-bash
-pip install -r requirements.txt
-Required Libraries
-pyttsx3
-speech_recognition
-tensorflow
-numpy
-pyautogui
-psutil
+- bash
+- pip install -r requirements.txt
+- Required Libraries
+- pyttsx3
+- speech_recognition
+- tensorflow
+- numpy
+- pyautogui
+- psutil
 
 ---
 
