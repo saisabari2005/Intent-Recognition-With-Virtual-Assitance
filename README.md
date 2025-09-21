@@ -23,5 +23,67 @@ A **voice-enabled virtual assistant** that can recognize user intents and perfor
    ```bash
    git clone https://github.com/yourusername/Intent-Recognition-With-Virtual-Assistance.git
    cd Intent-Recognition-With-Virtual-Assistance
+   
+---
 
+## Installation
+### Install dependencies:
+bash
+pip install -r requirements.txt
+Required Libraries
+pyttsx3
+speech_recognition
+tensorflow
+numpy
+pyautogui
+psutil
+
+---
+
+## File Structure
+text
+ai-virtual-assistant/ 
+├── intends.json        # Intent-response mappings
+├── chat_model.h5       # Trained Keras model
+├── tokenizer.pkl       # Tokenizer for text preprocessing
+├── label_encoder.pkl   # Label encoder for intents
+├── main.py             # Main assistant script
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
+
+---
+
+## Usage ▶️
+### Run the assistant:
+bash
+python main.py
+The assistant will greet you based on the time of day.
+Speak your commands clearly. Examples:
+"Open calculator"
+"What is the CPU usage?"
+"Open Facebook"
+"University timetable"
+"Mute the sound"
+To exit, say: "exit"
+
+---
+
+## How It Works ⚙️
+Speech Recognition: Converts your voice to text using speech_recognition
+Intent Classification: Uses the trained model to classify user intent
+Response Generation: Chooses a response from intents.json or performs system/web actions
+Text-to-Speech: Speaks the response using pyttsx3
+
+---
+
+## Future Improvements 🚀
+Add more intents for advanced tasks
+Integrate with calendar APIs for dynamic schedule management
+Add a GUI interface for easier interaction
+Include context-aware conversations for better understanding
+
+---
+
+## License 📄
+This project is licensed under the MIT License.
 
