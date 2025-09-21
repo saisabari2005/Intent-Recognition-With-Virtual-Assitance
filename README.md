@@ -40,19 +40,6 @@ psutil
 
 ---
 
-## File Structure
-text
-ai-virtual-assistant/ 
-├── intends.json        # Intent-response mappings
-├── chat_model.h5       # Trained Keras model
-├── tokenizer.pkl       # Tokenizer for text preprocessing
-├── label_encoder.pkl   # Label encoder for intents
-├── main.py             # Main assistant script
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
-
----
-
 ## Usage ▶️
 ### Run the assistant:
 bash
